@@ -9,7 +9,7 @@
 ## Installing
 Clone this repository to your local computer
 ``` bash
-git https://github.com/bensonruan/Hand-Written-Digit-Recognition.git
+git clone https://github.com/olegmicode/Hand-Written-Digit-Recognition.git
 ```
 Point your localhost to the cloned root directory
 
@@ -21,7 +21,7 @@ Browse to http://localhost/index.html
 * Click "Clean" to start drawing again
 
 ## Pre-trained model 
-Use MNIST dataset from Keras with CNN (Convolutional Neural Network)
+Use MNIST dataset from Keras with CNN (LeNet Convolutional Neural Network)
 ```python
 model = keras.Sequential([
     keras.layers.Conv2D(32, (5, 5), padding="same", input_shape=[28, 28, 1]),
